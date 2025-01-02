@@ -26,7 +26,7 @@ Body {
   left: 50%;
   transform: Translate(-50%, -50%);
 
-  animation-duration: 6s;
+  animation-duration: 2s;
   animation-name: RotateGradient;
   animation-timing-function: Linear;
   animation-iteration-count: Infinite;
@@ -35,10 +35,8 @@ Body {
 .Card {
   border-radius: 0;
   transition: All 0.2s;
-}
-
-.Card:hover {
   transform: Scale(0.98);
+  
   border-radius: 20px;
   box-shadow: 0px 0px 30px 1px Rgba(0, 255, 117, 0.3);
 }
